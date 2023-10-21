@@ -1,0 +1,42 @@
+@import url('resets.css');
+@import url('fonts.css');
+
+body{
+  background-color: #E5E5E5;
+  font-family: 'Open Sans', sans-serif;
+}
+.container{
+  margin: 0 166px;
+  
+}
+.header{
+  background-image: url(../images/background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.header-top{
+  padding-top: 50px;
+  display: flex;
+  align-items: center;
+}
+.navigation_list{
+  display: flex;
+  align-items: center;
+}
+.navigation_link{
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  margin-right: 25px;
+}
+.navigation_link:hover{
+  color: rgb(43, 43, 225);
+}
+.navigation_cart{
+  border-right: 1px #fff solid;
+}
+.header_phone{
+  display: flex;
+  gap: 30px;
+}
