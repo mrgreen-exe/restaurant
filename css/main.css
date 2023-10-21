@@ -38,5 +38,6 @@ body{
 }
 .header_phone{
   display: flex;
-  gap: 30px;
+  gap: 20px;
+
 }
